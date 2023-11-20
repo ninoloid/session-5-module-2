@@ -1,4 +1,5 @@
 import "./App.css";
+import NewComponent from "./components/NewComponent";
 import Title from "./components/Title";
 import TitleClass from "./components/TitleClass";
 
@@ -12,6 +13,7 @@ function App() {
       {/* <div className="div2">{add(1, 3)}</div> */}
       <Title title="Hahaha" />
       <TitleClass title="Ini title untuk class component" />
+      <NewComponent />
     </>
   );
 }
